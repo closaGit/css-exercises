@@ -1,0 +1,20 @@
+.odd{
+    background-color: rgb(233, 126, 142);
+    font-family:Verdana,'DejaVu Sans',sans-serif
+}
+
+#second-line{
+    color:blue;
+    font-size: 36px;
+
+}
+
+.cooler{
+    font-size:24px;
+}
+
+#fourth-line {
+    background: rgb(143, 243, 143);
+    font-size: 24px;
+    font-weight: bold;
+}
