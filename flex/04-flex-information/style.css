@@ -2,6 +2,37 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.container {
+  display: flex;
+  border:1px blue solid;
+  gap:32px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex:auto;
+  flex-direction: column;
+}
+
+
+
+.info {
+  display: flex;
+  border:1px red solid;
+  justify-content:center;
+  align-items: center;
+  gap:52px;
+  
+}
+
+.barberry, .chilli, .pepper, .saffron {
+  display:flex;
+  border:1px green solid;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
 img {
   width: 100px;
   height: 100px;
